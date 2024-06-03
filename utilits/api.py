@@ -51,20 +51,17 @@ class users_profile():
 
     @staticmethod
     def parents_control_disable(token_):
-        print(f"TOKEN IN DISABLE\n{token_}")
         url_path = "/subscriber/parental/disable?platform=BROWSER&system=tvonline"
         url_disable = base_url + url_path
         json_for_post = {"pin":"1234"}
         result_post = http_metod.post(url_disable,json_for_post,token_)
-        print("OSPOWIEDZ\n\n")
         print(result_post.text)
         return result_post
     # delete
     @staticmethod
-    def parents_control_enable_seeksteen(token_):
+    def parents_control_enable_sixteen(token_):
 
         url_path = "/subscriber/parental/enable?platform=BROWSER&system=tvonline"
-        print(f"TOKEN PRZED WLACZENIEM KR")
         url_post_18 = base_url + url_path
         json_for_post = {
             "rating": 16

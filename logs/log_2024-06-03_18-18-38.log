@@ -1,0 +1,130 @@
+
+-----
+Test: test_api/test_users_profile.py::Test_response::test_subscr_det (call)
+Time: 2024-06-03 18:18:40.076739
+Request method: GET
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/details?platform=BROWSER&system=tvonline&language=pl
+
+Status code: 200
+Response text: {"last_logged_at":"2024-06-03 16:18:39","hide_unavailable_products":0,"subscriber_local_active":false,"login":"leonid-955@mail.ru","active":true,"tester":0,"addresses":[],"default_address_hash":null,"source":"pureott","representative_name":"leonid-955@mail.ru","icon":1,"profile_name":null,"firstname":"eggegrw","lastname":"wfefwefwefew","country":"PL","birthdate":"2000-10-10","email":"leonid-955@mail.ru","phone_number":null,"provider":null,"is_registration_email_sent":false,"login_token":null,"is_pin_required_for_profile_change":false,"parental_control_rating":"","id":3325,"email_approved":false,"email_approval_required":true,"payment_methods":["autopay","subscription_autopay","bluemedia","subscription_bluemedia","wallet","subscription_dcb","dcb","subscription_paypal","paypal","pass"],"missingAgreements":[{"id":1,"agreement_id":1,"name":"Regulamin p\u0142atno\u015bci","obligatory":1,"rank":1,"type":"PAYMENT","description":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","action":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","applicable_from":"2027-12-31 10:38:27"},{"id":2,"agreement_id":2,"name":"Marketingowe","obligatory":0,"rank":3,"type":"COOKIES","description":"Dzi\u0119ki tym cookies b\u0119dziemy mogli wykorzysta\u0107 informacje o Twoim zachowaniu na stronie w celu dostosowania reklam do Twoich zainteresowa\u0144. Korzystamy w tym celu z us\u0142ug renomowanych us\u0142ugodawc&oacute;w. Wyra\u017cenie zgody marketingowej jest dobrowolne, a wyra\u017con\u0105 zgod\u0119 mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Marketingowe","applicable_from":"2022-03-04 13:23:23"},{"id":5,"agreement_id":5,"name":"Statystyczne","obligatory":0,"rank":5,"type":"COOKIES","description":"Te cookies s\u0105 potrzebne, by mierzy\u0107 ruch na stronie oraz otrzymywa\u0107 anonimowe informacje o sposobie korzystania z naszej strony. Na podstawie tak pozyskanych danych statystycznych mo\u017cemy ulepsza\u0107 funkcjonowanie naszej strony. Stosowanie cookies statystycznych jest dobrowolne i mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107 zgod\u0119.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Statystyczne","applicable_from":"2022-03-04 13:27:23"},{"id":6,"agreement_id":6,"name":"Wymagane","obligatory":1,"rank":6,"type":"COOKIES","description":"Te cookies s\u0105 niezb\u0119dne, aby strona mog\u0142a prawid\u0142owo dzia\u0142a\u0107, m.in. prawid\u0142owo wy\u015bwietla\u0107 tre\u015bci, pami\u0119ta\u0107 dane logowania i ustawienia u\u017cytkownika.<br \/>&nbsp;<br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Wymagane","applicable_from":"2022-03-04 13:28:41"}],"need_complete_registration":false}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:40 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_response::test_subscr_det (call)
+Time: 2024-06-03 18:18:40.891966
+Request method: GET
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/details?platform=BROWSER&system=tvonline&language=pl
+
+Status code: 200
+Response text: {"last_logged_at":"2024-06-03 16:18:39","hide_unavailable_products":0,"subscriber_local_active":false,"login":"leonid-955@mail.ru","active":true,"tester":0,"addresses":[],"default_address_hash":null,"source":"pureott","representative_name":"leonid-955@mail.ru","icon":1,"profile_name":null,"firstname":"eggegrw","lastname":"wfefwefwefew","country":"PL","birthdate":"2000-10-10","email":"leonid-955@mail.ru","phone_number":null,"provider":null,"is_registration_email_sent":false,"login_token":null,"is_pin_required_for_profile_change":false,"parental_control_rating":"","id":3325,"email_approved":false,"email_approval_required":true,"payment_methods":["autopay","subscription_autopay","bluemedia","subscription_bluemedia","wallet","subscription_dcb","dcb","subscription_paypal","paypal","pass"],"missingAgreements":[{"id":1,"agreement_id":1,"name":"Regulamin p\u0142atno\u015bci","obligatory":1,"rank":1,"type":"PAYMENT","description":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","action":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","applicable_from":"2027-12-31 10:38:27"},{"id":2,"agreement_id":2,"name":"Marketingowe","obligatory":0,"rank":3,"type":"COOKIES","description":"Dzi\u0119ki tym cookies b\u0119dziemy mogli wykorzysta\u0107 informacje o Twoim zachowaniu na stronie w celu dostosowania reklam do Twoich zainteresowa\u0144. Korzystamy w tym celu z us\u0142ug renomowanych us\u0142ugodawc&oacute;w. Wyra\u017cenie zgody marketingowej jest dobrowolne, a wyra\u017con\u0105 zgod\u0119 mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Marketingowe","applicable_from":"2022-03-04 13:23:23"},{"id":5,"agreement_id":5,"name":"Statystyczne","obligatory":0,"rank":5,"type":"COOKIES","description":"Te cookies s\u0105 potrzebne, by mierzy\u0107 ruch na stronie oraz otrzymywa\u0107 anonimowe informacje o sposobie korzystania z naszej strony. Na podstawie tak pozyskanych danych statystycznych mo\u017cemy ulepsza\u0107 funkcjonowanie naszej strony. Stosowanie cookies statystycznych jest dobrowolne i mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107 zgod\u0119.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Statystyczne","applicable_from":"2022-03-04 13:27:23"},{"id":6,"agreement_id":6,"name":"Wymagane","obligatory":1,"rank":6,"type":"COOKIES","description":"Te cookies s\u0105 niezb\u0119dne, aby strona mog\u0142a prawid\u0142owo dzia\u0142a\u0107, m.in. prawid\u0142owo wy\u015bwietla\u0107 tre\u015bci, pami\u0119ta\u0107 dane logowania i ustawienia u\u017cytkownika.<br \/>&nbsp;<br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Wymagane","applicable_from":"2022-03-04 13:28:41"}],"need_complete_registration":false}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:41 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_products::test_subscriber_products (call)
+Time: 2024-06-03 18:18:41.313353
+Request method: GET
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/details?platform=BROWSER&system=tvonline&language=pl
+
+Status code: 200
+Response text: {"last_logged_at":"2024-06-03 16:18:39","hide_unavailable_products":0,"subscriber_local_active":false,"login":"leonid-955@mail.ru","active":true,"tester":0,"addresses":[],"default_address_hash":null,"source":"pureott","representative_name":"leonid-955@mail.ru","icon":1,"profile_name":null,"firstname":"eggegrw","lastname":"wfefwefwefew","country":"PL","birthdate":"2000-10-10","email":"leonid-955@mail.ru","phone_number":null,"provider":null,"is_registration_email_sent":false,"login_token":null,"is_pin_required_for_profile_change":false,"parental_control_rating":"","id":3325,"email_approved":false,"email_approval_required":true,"payment_methods":["autopay","subscription_autopay","bluemedia","subscription_bluemedia","wallet","subscription_dcb","dcb","subscription_paypal","paypal","pass"],"missingAgreements":[{"id":1,"agreement_id":1,"name":"Regulamin p\u0142atno\u015bci","obligatory":1,"rank":1,"type":"PAYMENT","description":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","action":"Akceptuj\u0119 regulamin p\u0142atno\u015bci","applicable_from":"2027-12-31 10:38:27"},{"id":2,"agreement_id":2,"name":"Marketingowe","obligatory":0,"rank":3,"type":"COOKIES","description":"Dzi\u0119ki tym cookies b\u0119dziemy mogli wykorzysta\u0107 informacje o Twoim zachowaniu na stronie w celu dostosowania reklam do Twoich zainteresowa\u0144. Korzystamy w tym celu z us\u0142ug renomowanych us\u0142ugodawc&oacute;w. Wyra\u017cenie zgody marketingowej jest dobrowolne, a wyra\u017con\u0105 zgod\u0119 mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Marketingowe","applicable_from":"2022-03-04 13:23:23"},{"id":5,"agreement_id":5,"name":"Statystyczne","obligatory":0,"rank":5,"type":"COOKIES","description":"Te cookies s\u0105 potrzebne, by mierzy\u0107 ruch na stronie oraz otrzymywa\u0107 anonimowe informacje o sposobie korzystania z naszej strony. Na podstawie tak pozyskanych danych statystycznych mo\u017cemy ulepsza\u0107 funkcjonowanie naszej strony. Stosowanie cookies statystycznych jest dobrowolne i mo\u017cesz w ka\u017cdej chwili cofn\u0105\u0107 zgod\u0119.<br \/><br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Statystyczne","applicable_from":"2022-03-04 13:27:23"},{"id":6,"agreement_id":6,"name":"Wymagane","obligatory":1,"rank":6,"type":"COOKIES","description":"Te cookies s\u0105 niezb\u0119dne, aby strona mog\u0142a prawid\u0142owo dzia\u0142a\u0107, m.in. prawid\u0142owo wy\u015bwietla\u0107 tre\u015bci, pami\u0119ta\u0107 dane logowania i ustawienia u\u017cytkownika.<br \/>&nbsp;<br \/>Szczeg&oacute;\u0142y w <a title=\"Polityka cookies\" href=\"https:\/\/uat.redcarpet.blueonline.tv\/dokument\/polityka-cookies\" target=\"_blank\" rel=\"noopener\">polityce cookies<\/a>.","action":"Wymagane","applicable_from":"2022-03-04 13:28:41"}],"need_complete_registration":false}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:41 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_products::test_subscriber_products (call)
+Time: 2024-06-03 18:18:41.701312
+Request method: GET
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/products?platform=BROWSER&system=tvonline&language=pl
+
+Status code: 200
+Response text: {"data":[]}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:41 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:41.913921
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/enable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjIuMTkyNTAyLCJleHAiOjE3MTc1MTc5MjIuMTkyNTAyLCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Miwic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTgiLCJwY0VuYWJsZWQiOnRydWUsImxvZ2luIjoibGVvbmlkLTk1NUBtYWlsLnJ1IiwicGVybWlzc2lvbiI6ImFwcCIsInN1YnNjcmliZXJUeXBlIjoibm9ybWFsIiwibG9naW5Db250ZXh0IjoicHVyZW90dCIsInN1YnNjcmliZXJQYXJlbnRJZCI6MzMyNSwiaXNBbm9ueW1vdXMiOmZhbHNlfQ.xYcBaCul-V997yEfRbTacCGksvetTexoKyCaqHE_ChE","rating":"18"}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:42 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:42.128829
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/disable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjIuNDY1NDQ0LCJleHAiOjE3MTc1MTc5MjIuNDY1NDQ0LCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Miwic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTgiLCJwY0VuYWJsZWQiOmZhbHNlLCJsb2dpbiI6Imxlb25pZC05NTVAbWFpbC5ydSIsInBlcm1pc3Npb24iOiJhcHAiLCJzdWJzY3JpYmVyVHlwZSI6Im5vcm1hbCIsImxvZ2luQ29udGV4dCI6InB1cmVvdHQiLCJzdWJzY3JpYmVyUGFyZW50SWQiOjMzMjUsImlzQW5vbnltb3VzIjpmYWxzZX0.A6kLn_WG5R8yXSnrJrcSapoYn96_FCNd2nHlxRy_YaE","rating":""}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:42 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:42.393055
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/enable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjIuNjc1MzgzLCJleHAiOjE3MTc1MTc5MjIuNjc1MzgzLCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Miwic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTYiLCJwY0VuYWJsZWQiOnRydWUsImxvZ2luIjoibGVvbmlkLTk1NUBtYWlsLnJ1IiwicGVybWlzc2lvbiI6ImFwcCIsInN1YnNjcmliZXJUeXBlIjoibm9ybWFsIiwibG9naW5Db250ZXh0IjoicHVyZW90dCIsInN1YnNjcmliZXJQYXJlbnRJZCI6MzMyNSwiaXNBbm9ueW1vdXMiOmZhbHNlfQ.Jwo9etvvXjr44GMEKS_PJqONh7cFeTBsN0JyWKz2Uac","rating":"16"}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:42 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:42.606214
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/disable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjIuOTQ3OTQ5LCJleHAiOjE3MTc1MTc5MjIuOTQ3OTQ5LCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Miwic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTgiLCJwY0VuYWJsZWQiOmZhbHNlLCJsb2dpbiI6Imxlb25pZC05NTVAbWFpbC5ydSIsInBlcm1pc3Npb24iOiJhcHAiLCJzdWJzY3JpYmVyVHlwZSI6Im5vcm1hbCIsImxvZ2luQ29udGV4dCI6InB1cmVvdHQiLCJzdWJzY3JpYmVyUGFyZW50SWQiOjMzMjUsImlzQW5vbnltb3VzIjpmYWxzZX0._J_MeP8y-V9nwDkz8obO3Zny4xJvUDhDiSCSetsmljY","rating":""}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:42 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:42.877064
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/enable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjMuMTM4MTAyLCJleHAiOjE3MTc1MTc5MjMuMTM4MTAyLCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Mywic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTYiLCJwY0VuYWJsZWQiOnRydWUsImxvZ2luIjoibGVvbmlkLTk1NUBtYWlsLnJ1IiwicGVybWlzc2lvbiI6ImFwcCIsInN1YnNjcmliZXJUeXBlIjoibm9ybWFsIiwibG9naW5Db250ZXh0IjoicHVyZW90dCIsInN1YnNjcmliZXJQYXJlbnRJZCI6MzMyNSwiaXNBbm9ueW1vdXMiOmZhbHNlfQ.L6S-agtbIaWc4w4lyepS6zke7PXNsxMTIAhTVK38BF0","rating":"16"}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:43 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test_api/test_users_profile.py::Test_subscr_parent_conr::test_parent_cont_enable (call)
+Time: 2024-06-03 18:18:43.068033
+Request method: POST
+Request URL: https://api.dev.redcarpet.blueonline.tv/subscriber/parental/disable?platform=BROWSER&system=tvonline
+
+Status code: 200
+Response text: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwcm9leGUiLCJpYXQiOjE3MTc0MzE1MjMuNDIyNzk4LCJleHAiOjE3MTc1MTc5MjMuNDIyNzk4LCJyZWZyZXNoX3R0bCI6MTcxNzQ1MTY4Mywic3Vic2NyaWJlcklkIjozMzI2LCJwbGF0Zm9ybSI6IkJST1dTRVIiLCJkZXZpY2VJZCI6IjUyOWM0MjM5LTBmMWEtNGRmOS1iY2Q4LWE0YmY4ZDU1NmI4NSIsInBjUmF0aW5nIjoiMTgiLCJwY0VuYWJsZWQiOmZhbHNlLCJsb2dpbiI6Imxlb25pZC05NTVAbWFpbC5ydSIsInBlcm1pc3Npb24iOiJhcHAiLCJzdWJzY3JpYmVyVHlwZSI6Im5vcm1hbCIsImxvZ2luQ29udGV4dCI6InB1cmVvdHQiLCJzdWJzY3JpYmVyUGFyZW50SWQiOjMzMjUsImlzQW5vbnltb3VzIjpmYWxzZX0.04AU2NHI9R3ZH9iFN4mgTg7dCGq1n6iAPiY5n3bFd3c","rating":""}
+Response headers: {'Server': 'nginx/1.24.0', 'Content-Type': 'application/json', 'Vary': 'Accept-Encoding', 'Cache-Control': 'no-cache, private', 'Date': 'Mon, 03 Jun 2024 16:18:43 GMT', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+Response cookies: {}
+
+-----

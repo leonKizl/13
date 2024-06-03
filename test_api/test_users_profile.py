@@ -36,18 +36,38 @@ class Test_subscr_parent_conr():
         newest_token = new_token.get("token")
         print(newest_token)
         token_ = newest_token
-        result_post = users_profile.parents_control_enable_seeksteen(token_)
+        result_post = users_profile.parents_control_enable_sixteen(token_)
         print("UDALO SIE")
         # ?
         print("TUT WSE NORM")
         new_token = result_post.json()
         newest_token = new_token.get("token")
-        print(newest_token)
         token_ = newest_token
 
         result_post = users_profile.parents_control_disable(token_)
 
+
         print("udalo sie 2")
+        new_token = result_post.json()
+        newest_token = new_token.get("token")
+        print(newest_token)
+        token_ = newest_token
+        result_post = users_profile.parents_control_enable_sixteen(token_)
+        print("16 is enabled")
+        new_token = result_post.json()
+        newest_token = new_token.get("token")
+        print(newest_token)
+        token_ = newest_token
+        result_post = users_profile.parents_control_disable(token_)
+        print("Disabled")
+
+
+
+
+
+
+
+
 
 
 
